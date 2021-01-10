@@ -8,7 +8,7 @@ Being a fresher, I have to fill different job applications everyday and copying 
 ## How to use it?
 
 All the links to different social media handles are mentioned in the ```links.js```. You can go to that file and change the links. You can add new links as well. 
-#### Make sure you add an icon for each new link you add otherwise it would throw an error.
+#### Make sure you add an icon for each new link otherwise it would throw an error.
 
 ## Demo
 ![Demo Photo](./demoQuickLink.png)
