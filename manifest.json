@@ -1,0 +1,38 @@
+{
+  "name": "QuickLinks",
+  "version": "1.0",
+  "description": "An extension which helps you to get access to Quick Links!",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "icons": {
+    "16": "icons/icon16x16.png",
+    "24": "icons/icon24x24.png",
+    "32": "icons/icon32x32.png",
+    "48": "icons/icon48x48.png",
+    "64": "icons/icon64x64.png",
+    "96": "icons/icon96x96.png",
+    "128": "icons/icon128x128.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "16": "icons/icon16x16.png",
+      "24": "icons/icon24x24.png",
+      "32": "icons/icon32x32.png",
+      "48": "icons/icon48x48.png",
+      "64": "icons/icon64x64.png",
+      "96": "icons/icon96x96.png",
+      "128": "icons/icon128x128.png"
+    },
+    "default_popup": "popup.html",
+    "default_title": "QuickLinks"
+  },
+  "permissions": [
+    "tabs",
+    "alarms",
+    "storage"
+  ]
+}
