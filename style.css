@@ -18,6 +18,7 @@ ul {
 }
 .menu{
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between
 }
 .logo{
@@ -25,7 +26,7 @@ ul {
   font-family: 'Lato', sans-serif;
   padding: 10px 5px;
 }
-.edit-button{
+.link-button{
   align-self: center;
   padding: 14px 5px;
 }
@@ -56,4 +57,34 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.copyhelper{
+  position: absolute;
+}
+.toast{
+  position: absolute;
+  top:20px;
+  display: none;
+  width: 90px;
+ text-align: center;
+  background: rgb(143, 200, 85);
+  color: white;
+  height: 22px;
+  font-size: 14px;
+  padding: 2px 0;
+  border-radius: 3px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.display-toast{
+  display: block;
+  animation: slideup 0.8s ease-in-out forwards;
+}
+@keyframes slideup{
+  from{
+    top:20px;
+  }
+  to{
+    top:-20px;
+  }
 }
