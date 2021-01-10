@@ -1,6 +1,6 @@
 # QuickLinks - Chrome Extension
 
-Being a fresher, I have to fill different job applications everyday and copying my LinkedIn, GitHub, Twitter etc for mentioning in those forms becomes very difficult. So I made this extension which copies the link to the social media handles on the clipboard when you click on the icon.
+Being a fresher, I have to fill different job applications everyday and copying my LinkedIn, GitHub, Twitter handle links etc for mentioning in those forms become very difficult. So I made this extension which copies the link to the social media handles on the clipboard when you click on the icon.
 
 
 > A chrome extension which helps you to copy your important social media links to clipboard in a **faster way**.
