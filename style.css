@@ -78,12 +78,10 @@ ul {
 }
 .display-toast{
   display: block;
-  animation: slideup 0.8s ease-in-out forwards;
+  animation: slideup 0.6s ease-in forwards;
+  an
 }
 @keyframes slideup{
-  from{
-    top:20px;
-  }
   to{
     top:-20px;
   }
