@@ -79,7 +79,6 @@ ul {
 .display-toast{
   display: block;
   animation: slideup 0.6s ease-in forwards;
-  an
 }
 @keyframes slideup{
   to{
