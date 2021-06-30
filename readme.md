@@ -18,10 +18,11 @@ All the links to different social media handles are mentioned in the ```links.j
 
 ## Steps to Install
 1. Clone this repository.
-2. Navigate to chrome://extensions/
-3. Toggle the developer mode (Activate it).
-4. Click on 'Load Unpacked'
-5. Select the complete folder which you cloned in the first step.
+2. Open Chrome browser.
+3. Navigate to ```chrome://extensions/```
+4. Toggle the developer mode (Activate it).
+5. Click on 'Load Unpacked'
+6. Select the complete folder which you cloned in the first step.
 
 ## Tech Stack
 - HTML
